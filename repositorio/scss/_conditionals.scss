@@ -1,0 +1,11 @@
+$letras: letra2;
+p{
+@if $letras == letra1 {
+
+ color: lightcoral;
+}
+@else if $letras == letra2 {
+    color: lightseagreen;
+}
+
+}

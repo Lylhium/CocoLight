@@ -1,0 +1,173 @@
+ /* etiqueta raíz */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-image: linear-gradient(teal, teal);
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    height: 120px;
+  }
+
+header nav .menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 35px;
+    font-size: 15px;
+  }
+  
+.menu li a {
+    text-decoration: none;
+    color: yellow;
+    padding: 20px;
+  }
+  
+  .menu li a:hover {
+    background-color: lightyellow;
+    color: teal;
+    padding: 25px;
+  }
+
+  /*grilla */
+#grid {
+    background-image: linear-gradient(lightgoldenrodyellow,lightblue);
+    height: auto;
+
+}
+
+h1 {
+color: yellow;
+background-color: teal;
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+}
+
+h2 {
+color: yellow;
+background-color: teal;
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+}
+h3{
+color: yellow;
+background-color: lightslategray;
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+}
+/*tabla */
+table {
+border: 3px ;
+font-size: 10px;
+}
+
+li {
+    text-align: inline-block;
+    width: 25%;
+    position: relative;
+color: teal;
+background-color: teal;
+background-size: cover;
+
+
+
+}
+section{
+margin: 20px;
+display: inline-block;
+color: lightgoldenrodyellow;
+
+}
+.formatoItalica {
+color: brown;
+text-decoration: cornflowerblue;
+
+}
+section article{
+background-color: lightblue;
+width: 450px;
+height: 250px;
+padding: 35px;
+}
+.section article p {
+line-height: 5;
+
+
+}
+
+    ul {
+    list-style: none;
+    font-size: 0;
+    
+    }
+    li {
+    display: inline-block;
+    width: 45%;
+    position: relative;
+    font-size: 15px;
+    
+    }
+    ul ul {
+    position: absolute;
+    display: none;
+    
+    }
+    ul li:hover ul{
+        display: block;
+    }
+    ul li:hover ul{
+        display: block;
+    }
+    
+    main {
+display: flex; 
+flex-direction: row;
+justify-content: space-evenly;
+height: 200px;
+
+    }
+    article {
+        background-color: steelblue; 
+        color: yellow;
+    }
+    
+    footer {
+        background-color: steelblue; 
+        color: yellow;
+
+    }
+  
+    article,footer{
+flex: 100px;
+padding: 2rem;
+margin: 12px;
+    }
+    /*grilla */
+.grid {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px ;
+    
+    
+}
+
+footer {
+background-color: teal;
+}
+
+footer h5 {
+    text-align: center;
+    font-size: 2rem
+ 
+}
+
+
+footer:hover {
+transition: 3s;
+font-size: 2rem;
+
+}

@@ -1,0 +1,9 @@
+$redes: (
+        twitter: #55acee,   
+); 
+
+@each $red, $color in $redes {
+   .btn--#{$red} {
+       background-color: $color;
+   }
+}
